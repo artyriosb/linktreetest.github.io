@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<title>LinkTree</title>
+</head>
+
+<body
+    class="min-h-screen dark:min-h-screen flex flex-col items-center my-[20px] bg-neutral-100 dark:bg-slate-900 antialiased select-none">
+    <div class="w-full mb-[20px]">
+        <label class="inline-flex items-center cursor-pointer">
+            <span class="ms-3 mr-[5px] text-sm font-medium text-gray-900 dark:text-gray-300">Tema:</span>
+            <input id="theme-switch" type="checkbox" value="" class="sr-only peer" checked>
+            <div
+                class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-1 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-lime-600">
+            </div>
+        </label>
+    </div>
+    <header class="space-y-[10px]">
+        <h1 class="text-5xl font-bold bg-gradient-to-r from-lime-300 to-emerald-300 text-transparent bg-clip-text">
+            LinkTree</h1>
+    </header>
+    <main class="flex flex-col items-center">
+        <div class="flex flex-col justify-center items-center text-center space-y-[10px] mt-[10px]">
+            <img src="./assets/avatar.png" alt="Avatar" class="w-[200px] rounded-full border-[2px] border-lime-300">
+            <h1 class="text-3xl font-bold dark:text-white">Arthur Rios</h1>
+            <h2 class="text-xl text-lime-500">Web Developer</h2>
+            <p class="w-[300px] dark:text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Esse impedit <span class="text-lime-500 font-bold">earum dignissimos</span> fugiat reiciendis,
+                repellendus suscipit veniam aliquid eos molestiae,
+                illo blanditiis perspiciatis consectetur nostrum adipisci
+                tempore veritatis pariatur mollitia?
+            </p>
+        </div>
+        <div class="flex flex-col space-y-[20px] my-[20px]">
+            <a class="transition ease-in-out delay-150 w-[150px] h-[40px] flex items-center justify-center bg-lime-600 rounded-xl text-white font-bold hover:bg-lime-500 hover:shadow-xl hover:-translate-y-1 hover:scale-110"
+                href="https://instagram.com" target="_blank">Instagram</a>
+            <a class="transition ease-in-out delay-150 w-[150px] h-[40px] flex items-center justify-center bg-lime-600 rounded-xl text-white font-bold hover:bg-lime-500 hover:shadow-xl hover:-translate-y-1 hover:scale-110"
+                href="https://facebook.com" target="_blank">Facebook</a>
+            <a class="transition ease-in-out delay-150 w-[150px] h-[40px] flex items-center justify-center bg-lime-600 rounded-xl text-white font-bold hover:bg-lime-500 hover:shadow-xl hover:-translate-y-1 hover:scale-110"
+                href="https://linkedin.com" target="_blank">Linkedin</a>
+            <a class="transition ease-in-out delay-150 w-[150px] h-[40px] flex items-center justify-center bg-lime-600 rounded-xl text-white font-bold hover:bg-lime-500 hover:shadow-xl hover:-translate-y-1 hover:scale-110"
+                href="https://github.com" target="_blank">GitHub</a>
+            <a class="transition ease-in-out delay-150 w-[150px] h-[40px] flex items-center justify-center bg-lime-600 rounded-xl text-white font-bold hover:bg-lime-500 hover:shadow-xl hover:-translate-y-1 hover:scale-110"
+                href="https://whatsapp.com" target="_blank">Whatsapp</a>
+        </div>
+    </main>
+    <footer class="mt-[50px]">
+        <p class="dark:text-white">Arthur Rios - 2024</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
